@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "FirstPack",
+    "description": "A first try of a resource pack",
+    "uuid": "a8fc50c7-b568-4871-b0d4-62bbf4ef1244",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "051c1846-37c8-4b91-8120-f542eabe45b2",
+      "version": [1, 0, 0]
+    }
+  ]
+}
