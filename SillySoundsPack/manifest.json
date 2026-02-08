@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Silly Sounds Pack",
+        "description": "Makes dirt blocks sound ridiculous!",
+        "uuid": "6caca1e1-5af6-4879-82c5-cfb7735f6905",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "7f4319ab-5d0d-4dbf-b087-1d4e382628fd",
+            "version": [1, 0, 0]
+        }
+    ]
+}
