@@ -1,9 +1,9 @@
 {
     "sound_definitions": {
-        "block.dirt.break":{
+        "dig.grass":{
             "category": "block",
             "sounds": [
-                "sounds/block/dirt/funny_pop"
+                "sounds/dig/grass/funny_pop"
             ]
         }
     }
