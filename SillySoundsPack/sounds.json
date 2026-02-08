@@ -1,7 +1,13 @@
 {
-    "individual_event_sounds": {
-        "events": {
-            "dig.grass": "dig.grass"
+    "block_sounds": {
+        "grass":{
+            "events": {
+                "break" : {
+                    "pitch" : [ 0.80, 1.0 ],
+                    "sound" : "dig.grass",
+                    "volume" : 0.70
+                }
+            }
         }
-    }
+    }     
 }

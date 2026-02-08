@@ -1,10 +1,20 @@
 {
+    "format_version": "1.20.20",
     "sound_definitions": {
         "dig.grass":{
-            "category": "block",
-            "sounds": [
-                "sounds/dig/grass/funny_pop"
+            "__use_legacy_max_distance" : "true",
+            "category" : "block",
+            "max_distance" : null,
+            "min_distance" : null,
+            "sounds" : [
+                "sounds/dig/funny_pop"
             ]
+        },
+        "dig.gravel": {
+            "__use_legacy_max_distance": "true",
+            "category": "block",
+            "sounds": ["sounds/dig/funny_pop"]
         }
+        
     }
 }
