@@ -1,0 +1,10 @@
+{
+    "sound_definitions": {
+        "block.dirt.break":{
+            "category": "block",
+            "sounds": [
+                "sounds/block/dirt/funny_pop"
+            ]
+        }
+    }
+}
