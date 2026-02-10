@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Packs",
+      "type": "shell",
+      "command": "python3",
+      "args": ["${workspaceFolder}/scripts/validate.py"],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Package HelloWorldPack",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/package.sh",
+      "args": ["HelloWorldPack"],
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Package SillySoundsPack",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/package.sh",
+      "args": ["SillySoundsPack"],
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
