@@ -27,7 +27,159 @@
                 "sounds/mob/cow/say4",
                 "sounds/mob/cow/cow_farts"
             ]
-        }
+        },
+        "mob.wolf.bark": {
+            "__use_legacy_max_distance": "true",
+            "category": "neutral",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/wolf/bark1",
+                "sounds/mob/wolf/bark2",
+                "sounds/mob/wolf/bark3",
+                "sounds/mob/wolf/wolf_whistle_single"
+            ]
+        },
         
-    }
+        "mob.goat.ram_impact": {
+            "__use_legacy_max_distance": "true",
+            "category": "neutral",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/impact1",
+                    "volume": 0.80
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.80
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.80
+                },
+                {
+                    "name": "sounds/mob/goat/horn_bip",
+                    "volume": 0.80
+                }
+            ]
+        },
+        
+        "random.anvil_land": {
+            "__use_legacy_max_distance": "true",
+            "category": "block",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/random/bonk"
+            ]
+        },
+        
+        "mob.pillager.death": {
+            "__use_legacy_max_distance": "true",
+            "category": "hostile",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/pillager/death1",
+                "sounds/mob/pillager/death2",
+                "sounds/shared/wilhelmscream"
+            ]
+        },
+        
+        "mob.villager.hit": {
+            "__use_legacy_max_distance": "true",
+            "category": "neutral",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/villager/hit1",
+                "sounds/mob/villager/hit2",
+                "sounds/mob/villager/hit3",
+                "sounds/mob/villager/hit4",
+                "sounds/shared/wilhelmscream"
+            ]
+        },
+        
+        "mob.goat.ambient.screamer": {
+            "category": "neutral",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/idle1",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle2",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle3",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle4",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle5",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle6",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle7",
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/mob/goat/idle8",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/scream1",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream2",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream3",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream4",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream5",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream6",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream7",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream8",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/mob/goat/scream9",
+                    "volume": 0.90
+                },
+                {
+                    "name": "sounds/shared/wilhelmscream",
+                    "volume": 0.90
+                }
+            ]
+        } 
+    } 
 }
