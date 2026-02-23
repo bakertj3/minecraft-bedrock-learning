@@ -84,7 +84,7 @@
             "sounds": [
                 "sounds/mob/pillager/death1",
                 "sounds/mob/pillager/death2",
-                "sounds/shared/wilhelmscream"
+                "sounds/mob/shared/wilhelmscream"
             ]
         },
         
@@ -98,7 +98,7 @@
                 "sounds/mob/villager/hit2",
                 "sounds/mob/villager/hit3",
                 "sounds/mob/villager/hit4",
-                "sounds/shared/wilhelmscream"
+                "sounds/mob/shared/wilhelmscream"
             ]
         },
         
@@ -176,7 +176,7 @@
                     "volume": 0.90
                 },
                 {
-                    "name": "sounds/shared/wilhelmscream",
+                    "name": "sounds/mob/shared/wilhelmscream",
                     "volume": 0.90
                 }
             ]
