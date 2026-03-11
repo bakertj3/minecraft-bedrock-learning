@@ -1,13 +1,33 @@
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# VS Code
-.vscode/
+# VS Code (keep settings and tasks for team sharing)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
 
 # Temporary files
 *.tmp
 *~
+*.swp
+*.bak
 
 # Build artifacts
 *.mcpack
 *.mcaddon
+*.zip
+
+# Development
+.env
+*.log
+
+# Image editor temporary files
+*.psd~
+*.xcf~
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

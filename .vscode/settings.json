@@ -1,0 +1,17 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["**/manifest.json"],
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/schemas/manifest_schema.json"
+    }
+  ],
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
